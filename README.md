@@ -24,13 +24,13 @@ To run any script in this repo, open your terminal and type:
 python3 filename.py
 
 
-🎯 Goals of This Repository
+## ** Goals of This Repository**
 Strengthen my Python fundamentals
 Learn data structures and file handling
 Prepare for real-world projects and data science work
 Build a public portfolio on GitHub
 
-📌 About Me
+## 📌 **About Me**
 Name: Daisha (Sage Bea Hayden) Hendon-Rutherford
 Aspiring Role: Data Scientist / Python Developer
 Current Studies: Bachelor of Science in Computer Software Technology
