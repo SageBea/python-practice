@@ -1,0 +1,12 @@
+To loop through a set of code a specified number of times - use range ( ) function.
+
+Annotation: why Parenthesis?
+
+range () function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default) and ends at a specific number.
+
+Annotation: Can i change the start,and its increments?
+
+ex: pythonfoundations/controlflow/forloops/rangefunction/rangefuntion101.py
+/Users/sagebeastly/VSPlayground/pythonfoundations/controlflow/forloops/rangefunction/rangefuntion101.py
+for x in range(6):
+    print(x)
