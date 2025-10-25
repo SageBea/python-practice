@@ -1,0 +1,1 @@
+write directly in the command line? or running it in the command line 
