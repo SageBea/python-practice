@@ -56,9 +56,51 @@ Annotation: Will adding more parameters mean different things or destroy the "sy
 for now; (starting parameter,the number of loops i think,and its increments.)
             Range(Start, stop, step) anything more destroys syntax 
 
-Annotation: just one number in the range means it loops starting at 0 to the x-1,because 0 value means it loops zero times. yet,some houw its still an actual outcome...
+
+
+*  Looping backward
+for x in range(10, 0,-1):
+    print (i)
+output: 10, 9, 8 ... 0
+- notice not from 9 to 0 like above. 10 is still the staring range and it will never print the 2nd
+"stop" parameter
+The negative step (-1)makes the loop count down - great for countdoens or reverse iterations
+
+
+* Looping through a list
+fruits = ["apple", "banana", "Cherry"]
+for i in range(len(fruits)):
+    print (i, fruits [i])
+
+output: 0 apple
+        1 banana
+        2 Cherry
+Range(len(list)) lets me loop though both index and value
+
+annotations: why the many symbols?
+- [] and () for used for specific things and must be carried through out the script.
+? language: in the line fruits[i], the [] is saying "get the item at index i,"
+and in len(fruits), the () is saying "call the function  len  and give ir fruits as an arguement."
+
+
+
+
+Annotation: just one number in the range means it loops starting at 0 to the x-1,because 0 value means 
+it loops zero times. yet,some houw its still an actual outcome...
 why would anything loop zero- what whould that look like?
-            zero is the first position in programming. programming counts position not quantities.
+            zero is the first position in programming. programming counts position not quantities. zero
+            doesnt mean nothing.
+
+*Looping zero times
+for i in range(0):
+    print(i)
+
+- nothing happens, it skips the loop because the range is empty. it auto matically starts at 0 so to leave it at zero 
+is diff from Range(8) output:0,1,..8
+will be useful  for logic that depends on variable values.
+
+
+
 
 
 
