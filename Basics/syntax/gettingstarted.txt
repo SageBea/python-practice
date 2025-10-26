@@ -1,0 +1,36 @@
+Make sure python is installed on the command line/Terminal
+
+Windows/PC = CommandLine
+Mac/Linux = Terminal 
+
+To check Python is installed on each system:
+CommandLine = >python --version
+Terminal = Python --version
+
+if python isnt downloaded go here to download: https://www.python.org/
+
+What is python?
+Python is a Programming Language. its used by wring in python files ( .py ) 
+and putting the files in interpreteor/terminal/commmandline to be executed/run
+
+to create simple syntax or files
+option 1:   create a file __.py 
+                Hello.py for example
+            print("__") is the syntax/formula because its simple and print=state/repeat
+                print("yodelehewho") for example
+
+    to run this script:
+        commandline: >python hello.py
+        Terminal: python3 hello.py
+            it will show: yodelehewho 
+
+
+to basically test a short code to skip writing it in a file. this can be done with any syntax/formula
+option 2:   commandline: >python / py
+            terminal: python3
+                this will open a space to code
+                use printprint("yodelehewho")
+                it will show yodelehewho
+                    must exit the space using Exit() (nothing goes inside)
+
+    

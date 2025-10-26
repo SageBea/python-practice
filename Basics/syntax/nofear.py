@@ -1,0 +1,1 @@
+print ("There are so many stars visible in New Mexico.")
