@@ -1,0 +1,1 @@
+print("Your gonna be a slave so they can have a purple shirt.")

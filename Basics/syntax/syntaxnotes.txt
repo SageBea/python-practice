@@ -1,3 +1,80 @@
 there oare 2 options to excecute python syntax.
     1. directly into the terminal/commandline or
-    2.
+    2. create a .py file and run it in the terminal/command line 
+
+
+    INDENTATION
+    python uses indentation to indicate a block of code
+ex:
+        if 5 > 2:
+            Print("five is greater than two!")
+- skipping this will gove you an error
+-the number of spaces or indentation is suject to the codermaster
+
+but, we have to use the same amount of indentation when we writing in the same block of code:
+    Ex:
+        If 5 > 2:
+            print("five is greater than 2")
+                print ("five is greater than two")
+
+
+    VARIABLES
+ex:
+    x = 5
+    Y = "Hello, World"
+-Python has no command for declaring Variables 
+        What does that mean?
+            -Python doesn’t require a command or keyword to declare variables. 
+            You simply create one by assigning a value with =. 
+            The variable’s type is decided automatically by the value you give it. 
+            For example, x = 5 makes x an integer, and x = "hello" makes it a string. 
+            This flexibility is part of what makes Python easy to learn and use.
+
+
+    COMMENTS
+    we can you comments for for in-code documentation.
+ex:
+    #this is a comment
+    Print("Hello world")
+
+
+
+
+
+    Random learning: 
+oct28th 2025
+    -at the end of a block of code, you can press shift+Enter to run the code. :)
+                this may be just in VS CODE - it was hard to remove, but it opened another terminal i could run it in.. i dont understand it.
+            
+    - it doesnt matter if there is a space next to ( print ("") ) or not (  Print ("")  )
+            i tested this with nofear.py and sampf1.py 
+
+
+    - im having trouble making this code do what i want... i want to have a list of variables.
+    if a variable is picked i want to say " my number on fav movie is __) tthe cod ei have now doesn’t
+    offer that really. the code now is:
+
+                                # A modest list of some movies I love...Just playing with variables here.
+
+                                    1 == Django
+                                    2 == Kill Bill vol one through two
+                                    3 == four rooms
+                                    4 == Hateful eight
+
+                                    if 1 is x
+                                        print ("Yes, django is my number 1")
+
+                                    if 2 is x 
+                                        Print (" yes, KillBills are my number 2")
+
+      I think i need a prompt that  will only all the typeing of 1,2,3,4.. when 1 is pressed it states Django, is my number one favorite movie.
+      so maybe sumn like. printing a prompt that says " fond out hwat my favorote movies are. type 1,2,3, or 4 to see theire rank."
+      . i think i need to start with print and a statement. a variable list, somthing that allows ppl to put an input. that input is x, then it prints x is my number _ movie..
+      now i tink i need 2 variable list....
+            
+            final work:
+                 i need print(), input(), if statements, variables
+
+                 variables are movie1
+                 x = input
+      

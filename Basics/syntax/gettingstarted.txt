@@ -29,7 +29,7 @@ to basically test a short code to skip writing it in a file. this can be done wi
 option 2:   commandline: >python / py
             terminal: python3
                 this will open a space to code
-                use printprint("yodelehewho")
+                use print("yodelehewho")
                 it will show yodelehewho
                     must exit the space using Exit() (nothing goes inside)
 
