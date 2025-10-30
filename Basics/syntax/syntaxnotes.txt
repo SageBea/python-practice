@@ -77,4 +77,6 @@ oct28th 2025
 
                  variables are movie1
                  x = input
+
+                 Why put 2 == on the statement.
       
