@@ -1,0 +1,74 @@
+VARIABLEs
+Variables are containers for storing data values
+        - Variables act like labeled boxes in memory where Python stores info we want to use later.
+
+        -We give the box a name (the Variable), and we can put sumn in the box... 
+        a number,text, or list of items.
+
+Python has no command for declaring a variable 
+variables are created once we aissgn value
+
+                                            - are we creating value with = ?
+                                            - are all words to be quoted?
+    Ex:
+        x = 5
+        y = "John"
+
+A variable is a named container that stores a piece of data, so you can use it later.
+You create one by giving it a name and using the = sign to assign a value (for example, x = 5
+or name = "sage"). Variables can store numbers, text, and other types of data. They make your code
+reusable and flexible, since you can use the same variables name to hold new values as your program runs.
+
+
+
+
+
+Variables dont need declaring with a specsific type, and can change after set,
+    Ex:
+    x = 4       # x is of type int
+    x = "Sally" # x is now of type str
+    print(x)
+                                            -What are Types?
+| Type    | Name           | Example                            | Description                                      |
+| ------- | -------------- | ---------------------------------- | ------------------------------------------------ |
+| `int`   | Integer        | `4`, `100`, `-25`                  | Whole numbers — used for counting, math, etc.    |
+| `float` | Floating-point | `4.5`, `0.1`, `-3.14`              | Numbers with decimals.                           |
+| `str`   | String         | `"Sally"`, `'Python'`              | Text — letters, words, sentences.                |
+| `bool`  | Boolean        | `True`, `False`                    | True or False values, used for logic.            |
+| `list`  | List           | `[1, 2, 3]`, `["apple", "banana"]` | A collection of items in order.                  |
+| `tuple` | Tuple          | `(1, 2, 3)`                        | Like a list, but cannot be changed.              |
+| `dict`  | Dictionary     | `{"name": "Sally", "age": 4}`      | Key–value pairs, like labels and their meanings. |
+| `set`   | Set            | `{1, 2, 3}`                        | Unordered collection of unique values.           |
+
+Casting
+If we want to specify the data type of a variable, this can be done with casting 
+
+x = str(3) # x will be '3'
+y = int(3) # y will be 3
+z = float(3) # z will be 3.0
+
+
+Get the type
+We can get the data type fo variable with the Type
+    Ex:
+    x = 5
+    y = "john"
+    print(type(x))
+    print(type(x))
+
+
+Single or double quotes?
+-String variables can be declared eitherby using single or double quotes:
+    EX:
+    x = "john"
+    #is the same as 
+    x = 'John'
+
+Case sensitive
+-Variables are case sensitive
+EX:
+a = 4
+A = "Sally"
+#A will not overwrite a
+
+
