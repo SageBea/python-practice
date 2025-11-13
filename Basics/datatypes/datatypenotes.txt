@@ -1,0 +1,10 @@
+DATA TYPES:
+
+    Variables can store different types of data.
+    these types do different things.
+    some DATA TYPES are built in to python
+
+    Text type: str
+    mapping type: dict
+    boolean type: bool 
+    nonetype: NoneType
